@@ -7,6 +7,16 @@
   pointer-events: none;
 }
 
+.header h1{
+  background-color: #f4e04d;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+ 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +45,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.selbox{
+  width: 200px;
+  height: 25px;
+  border: solid 1px #252525;
+  font-size: 14px;
+}
+
+.time-zone{
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
 }
